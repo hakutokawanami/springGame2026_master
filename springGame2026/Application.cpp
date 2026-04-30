@@ -39,7 +39,7 @@ bool Application::Init()
 #endif // _DEBUG
 
 	//ウィンドウのタイトル設定
-	SetMainWindowText( L"斬るゲーム");
+	SetMainWindowText( L"スケルトンラッシュ");
 	//文字コードの設定
 	SetUseCharCodeFormat(DX_CHARCODEFORMAT_UTF8);
 
