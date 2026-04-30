@@ -1,4 +1,4 @@
-#include "Villager.h"
+﻿#include "Villager.h"
 #include<DxLib.h>
 #include"../AnimationController.h"
 Villager::Villager(int modelHandle,const Vector3& pos,scene name)
