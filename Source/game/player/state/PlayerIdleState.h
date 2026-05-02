@@ -1,5 +1,5 @@
 #pragma once
-#include "../base/PlayerStateBase.h"
+#include "PlayerStateBase.h"
 class PlayerIdleState :public PlayerStateBase
 {
 	void Enter(GamePlayer& player)override;

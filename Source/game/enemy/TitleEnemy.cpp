@@ -1,6 +1,6 @@
 ﻿#include "TitleEnemy.h"
 #include<DxLib.h>
-#include"../AnimationController.h"
+#include"graphics/AnimationController.h"
 TitleEnemy::TitleEnemy(int modelHandle,const Vector3& pos)
 {
 	m_modelHandle = MV1DuplicateModel(modelHandle);

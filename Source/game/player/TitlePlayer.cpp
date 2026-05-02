@@ -1,8 +1,8 @@
 ﻿#include "TitlePlayer.h"
 #include<DxLib.h>
 #include<cmath>
-#include"../base/PlayerStateBase.h"
-#include"../AnimationController.h"
+#include"state/PlayerStateBase.h"
+#include"graphics/AnimationController.h"
 TitlePlayer::TitlePlayer(int modelHandle)
 {
 	m_modelHandle = modelHandle;

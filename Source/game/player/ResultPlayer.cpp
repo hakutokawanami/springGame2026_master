@@ -1,7 +1,7 @@
 ﻿#include "ResultPlayer.h"
 #include<DxLib.h>
-#include"../AnimationController.h"
-#include"../base/PlayerStateBase.h"
+#include"graphics/AnimationController.h"
+#include"state/PlayerStateBase.h"
 ResultPlayer::ResultPlayer(int modelHandle)
 {
 	m_modelHandle = modelHandle;

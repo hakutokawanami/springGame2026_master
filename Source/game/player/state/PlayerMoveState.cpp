@@ -1,11 +1,11 @@
 #include "PlayerMoveState.h"
-#include"../manager/InputManager.h"
-#include"../character/GamePlayer.h"
-#include"../camera/Camera.h"
-#include"../AnimationController.h"
+#include"game/manager/InputManager.h"
+#include"game/player/GamePlayer.h"
+#include"game/camera/Camera.h"
+#include"graphics/AnimationController.h"
 #include"PlayerIdleState.h"
 #include"PlayerAttackState.h"
-#include"../manager/SoundManager.h"
+#include"game/manager/SoundManager.h"
 void PlayerMoveState::Enter(GamePlayer& player)
 {
 	player.GetAnimController()->Play("Run");

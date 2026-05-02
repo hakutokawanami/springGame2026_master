@@ -1,6 +1,6 @@
 #pragma once
 #include"system/Vector3.h"
-#include"collider/SphereCollider.h"
+#include"physics/SphereCollider.h"
 class PlayerAttack
 {
 public:

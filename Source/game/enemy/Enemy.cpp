@@ -1,10 +1,9 @@
 #include "Enemy.h"
 #include<DxLib.h>
-#include"../EnemyState/EnemyIdleState.h"
-#include"../AnimationController.h"
-#include"../manager/EffectManager.h"
-#include"../manager/GameManager.h"
-#include"../manager/SoundManager.h"
+#include"state/EnemyIdleState.h"
+#include"graphics/AnimationController.h"
+#include"graphics/EffectManager.h"
+#include"game/manager/GameManager.h"
 namespace
 {
 	constexpr float kRadius = 120.0f;

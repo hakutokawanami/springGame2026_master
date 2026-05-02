@@ -1,5 +1,5 @@
 #include "SceneController.h"
-#include "base/SceneBase.h"
+#include "scene/SceneBase.h"
 SceneController::SceneController()
 {
 }

@@ -1,5 +1,5 @@
 ﻿#include "Camera.h"
-#include"../manager/InputManager.h"
+#include"game/manager/InputManager.h"
 
 namespace
 {

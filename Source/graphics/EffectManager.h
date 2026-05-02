@@ -1,6 +1,6 @@
 #pragma once
 #include<EffekseerForDXLib.h>
-#include"../system/Vector3.h"
+#include"system/Vector3.h"
 #include<string>
 class EffectManager
 {

@@ -1,9 +1,9 @@
 ﻿#include "PlayerIdleState.h"
-#include"../manager/InputManager.h"
-#include"../character/GamePlayer.h"
+#include"game/manager/InputManager.h"
+#include"game/player/GamePlayer.h"
 #include"PlayerMoveState.h"
 #include"PlayerAttackState.h"
-#include"../AnimationController.h"
+#include"graphics/AnimationController.h"
 void PlayerIdleState::Enter(GamePlayer& player)
 {
 	player.GetAnimController()->Play("Idle");

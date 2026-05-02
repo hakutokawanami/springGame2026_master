@@ -1,14 +1,14 @@
 ﻿#include "Application.h"
 #include"system/Game.h"
 #include<DxLib.h>
-#include"manager/InputManager.h"
+#include"game/manager/InputManager.h"
 #include"SceneController.h"
-#include"scene/GameScene.h"
+#include"scene/SceneBase.h"
 #include"scene/TitleScene.h"
 #include<memory>
-#include"manager/ResourceManager.h"
-#include"manager/FontManager.h"
-#include"manager/SoundManager.h"
+#include"game/manager/ResourceManager.h"
+#include"graphics/FontManager.h"
+#include"game/manager/SoundManager.h"
 Application::Application():
 	m_windowSize(Game::kScreenWidth,Game::kScreenHeight)
 {

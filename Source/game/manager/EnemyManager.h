@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include<vector>
 #include<memory>
-#include"../character/Enemy.h"
+#include"game/enemy/Enemy.h"
 class Enemy;
 /// <summary>
 /// 敵を管理するクラス

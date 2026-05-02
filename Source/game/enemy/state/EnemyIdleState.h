@@ -1,5 +1,5 @@
 #pragma once
-#include"../base/EnemyStateBase.h"
+#include"EnemyStateBase.h"
 class EnemyIdleState : public EnemyStateBase
 {
 	void Enter(Enemy& enemy)override;

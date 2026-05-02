@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include"../character/Enemy.h"
+#include"game/enemy/Enemy.h"
 
 enum EnemyStateType
 {

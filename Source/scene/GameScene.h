@@ -1,7 +1,7 @@
 ﻿#pragma once
-#include "../base/SceneBase.h"
-#include"../manager/EnemyManager.h"
-#include"../manager/HitStopManager.h"
+#include "scene/SceneBase.h"
+#include"game/manager/EnemyManager.h"
+#include"game/manager/HitStopManager.h"
 
 class InputManager;
 class GamePlayer;

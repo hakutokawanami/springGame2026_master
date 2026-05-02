@@ -1,6 +1,6 @@
 ﻿#pragma once
-#include"../base/GameObject.h"
-#include"../system/Vector3.h"
+#include"base/GameObject.h"
+#include"system/Vector3.h"
 
 namespace
 {

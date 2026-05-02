@@ -1,11 +1,11 @@
 ﻿#include "PlayerAttackState.h"
-#include"../character/GamePlayer.h"
-#include"../AnimationController.h"
+#include"game/player/GamePlayer.h"
+#include"graphics/AnimationController.h"
 #include"PlayerIdleState.h"
-#include"../manager/InputManager.h"
+#include"game/manager/InputManager.h"
 #include<memory>
-#include"../manager/EffectManager.h"
-#include"../manager/SoundManager.h"
+#include"graphics/EffectManager.h"
+#include"game/manager/SoundManager.h"
 namespace
 {
 	constexpr int kEffectInterval = 10;

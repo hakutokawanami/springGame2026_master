@@ -1,6 +1,6 @@
 #pragma once
-#include "../base/Character.h"
-#include"../SceneController.h"
+#include "base/Character.h"
+#include"core/SceneController.h"
 #include<memory>
 class AnimationController;
 class Villager : public Character

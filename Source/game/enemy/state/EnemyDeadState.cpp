@@ -1,7 +1,7 @@
 #include "EnemyDeadState.h"
-#include"../AnimationController.h"
-#include"../manager/EffectManager.h"
-#include"../manager/SoundManager.h"
+#include"graphics/AnimationController.h"
+#include"graphics/EffectManager.h"
+#include"game/manager/SoundManager.h"
 void EnemyDeadState::Enter(Enemy& enemy)
 {
 	enemy.GetAnimController()->Play("Dead",false);

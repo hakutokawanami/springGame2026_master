@@ -1,6 +1,6 @@
 #pragma once
-#include "Character.h"
-#include"../system/Quaternion.h"
+#include "base/Character.h"
+#include"system/Quaternion.h"
 #include<memory>
 class InputManager;
 class PlayerBase : public Character

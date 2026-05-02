@@ -1,7 +1,7 @@
 ﻿#include "EnemyManager.h"
-#include"../character/Enemy.h"
+#include"game/enemy/Enemy.h"
 #include<DxLib.h>
-#include"EffectManager.h"
+#include"graphics/EffectManager.h"
 #include"GameManager.h"
 #include"SoundManager.h"
 namespace

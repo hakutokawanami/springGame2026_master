@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "../base/Character.h"
+#include "base/Character.h"
 #include<memory>
 class AnimationController;
 class TitleEnemy : public Character

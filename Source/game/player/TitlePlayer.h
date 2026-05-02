@@ -1,5 +1,5 @@
 #pragma once
-#include "../base/PlayerBase.h"
+#include "PlayerBase.h"
 #include<memory>
 class InputManager;
 class PlayerStateBase;

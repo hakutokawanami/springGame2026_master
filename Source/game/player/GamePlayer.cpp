@@ -1,12 +1,11 @@
 ﻿#include "GamePlayer.h"
-#include"../base/PlayerStateBase.h"
-#include"../PlayerState/PlayerIdleState.h"
+#include"state/PlayerStateBase.h"
+#include"state/PlayerIdleState.h"
 #include<DxLib.h>
-#include"../camera/Camera.h"
-#include"../AnimationController.h"
-#include"../PlayerAttack.h"
-#include"../manager/EffectManager.h"
-#include"../system/Matrix4x4.h"
+#include"game/camera/Camera.h"
+#include"graphics/AnimationController.h"
+#include"PlayerAttack.h"
+#include"graphics/EffectManager.h"
 namespace
 {
 	//スピード

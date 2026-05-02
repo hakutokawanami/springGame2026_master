@@ -3,8 +3,8 @@
 #include<map>
 #include<string>
 #include<vector>
-#include"../system/Vector3.h"
-#include"../system/Vector2.h"
+#include"system/Vector3.h"
+#include"system/Vector2.h"
 #include"DxLib.h"
 /// <summary>
 /// 周辺機器種別

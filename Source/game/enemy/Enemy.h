@@ -1,7 +1,7 @@
 ﻿#pragma once
-#include "../base/Character.h"
-#include"../collider/SphereCollider.h"
-#include"../base/EnemyStateBase.h"
+#include "base/Character.h"
+#include"physics/SphereCollider.h"
+#include"game/enemy/state/EnemyStateBase.h"
 #include<memory>
 class EnemyStateBase;
 class AnimationController;

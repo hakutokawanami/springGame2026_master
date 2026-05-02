@@ -1,6 +1,6 @@
 ﻿#include "Villager.h"
 #include<DxLib.h>
-#include"../AnimationController.h"
+#include"graphics/AnimationController.h"
 Villager::Villager(int modelHandle,const Vector3& pos,scene name)
 {
 	m_modelHandle = MV1DuplicateModel(modelHandle);

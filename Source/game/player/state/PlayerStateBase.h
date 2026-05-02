@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include"../system/Matrix4x4.h"
+#include"system/Matrix4x4.h"
 #include<memory>
 #include<map>
 #include<string>

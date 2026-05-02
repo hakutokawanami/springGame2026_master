@@ -1,9 +1,9 @@
 ﻿#pragma once
-#include "../base/Character.h"
+#include "base/Character.h"
 #include<memory>
 #include<vector>
-#include"../collider/SphereCollider.h"
-#include"../base/PlayerBase.h"
+#include"physics/SphereCollider.h"
+#include"PlayerBase.h"
 class PlayerStateBase;
 class InputManager;
 class Camera;
