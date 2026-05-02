@@ -77,7 +77,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>../EffekseerForDXLib;$(ProjectDir)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../EffekseerForDXLib;;EffekseerForDXLib</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -95,7 +95,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>../EffekseerForDXLib;$(ProjectDir)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../EffekseerForDXLib;;EffekseerForDXLib</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -111,7 +111,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>../EffekseerForDXLib;$(ProjectDir)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../EffekseerForDXLib;c:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(ProjectDir)src;EffekseerForDXLib</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -129,7 +129,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>../EffekseerForDXLib;$(ProjectDir)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../EffekseerForDXLib;c:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(ProjectDir)src;EffekseerForDXLib</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -139,66 +139,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AnimationController.cpp" />
+    <ClCompile Include="Application.cpp" />
     <ClCompile Include="base\Character.cpp" />
     <ClCompile Include="base\GameObject.cpp" />
     <ClCompile Include="camera\Camera.cpp" />
     <ClCompile Include="character\Enemy.cpp" />
     <ClCompile Include="base\EnemyStateBase.cpp" />
-    <ClCompile Include="core\Application.cpp" />
-    <ClCompile Include="core\main.cpp" />
-    <ClCompile Include="core\SceneController.cpp" />
     <ClCompile Include="EnemyState\EnemyChaseState.cpp" />
-    <ClCompile Include="game\camera\Camera.cpp" />
-    <ClCompile Include="game\enemy\Enemy.cpp" />
-    <ClCompile Include="game\enemy\state\EnemyChaseState.cpp" />
-    <ClCompile Include="game\enemy\state\EnemyDeadState.cpp" />
-    <ClCompile Include="game\enemy\state\EnemyIdleState.cpp" />
-    <ClCompile Include="game\enemy\state\EnemyStateBase.cpp" />
-    <ClCompile Include="game\enemy\TitleEnemy.cpp" />
-    <ClCompile Include="game\manager\EnemyManager.cpp" />
-    <ClCompile Include="game\manager\GameManager.cpp" />
-    <ClCompile Include="game\manager\HitStopManager.cpp" />
-    <ClCompile Include="game\manager\InputManager.cpp" />
-    <ClCompile Include="game\manager\ResourceManager.cpp" />
-    <ClCompile Include="game\manager\SoundManager.cpp" />
-    <ClCompile Include="game\mob\Villager.cpp" />
-    <ClCompile Include="game\player\GamePlayer.cpp" />
-    <ClCompile Include="game\player\PlayerAttack.cpp" />
-    <ClCompile Include="game\player\PlayerBase.cpp" />
-    <ClCompile Include="game\player\state\PlayerStateBase.cpp" />
-    <ClCompile Include="game\player\ResultPlayer.cpp" />
-    <ClCompile Include="game\player\state\PlayerAttackState.cpp" />
-    <ClCompile Include="game\player\state\PlayerIdleState.cpp" />
-    <ClCompile Include="game\player\state\PlayerMoveState.cpp" />
-    <ClCompile Include="game\player\TitlePlayer.cpp" />
-    <ClCompile Include="game\stage\Ground.cpp" />
-    <ClCompile Include="game\stage\SkyBox.cpp" />
-    <ClCompile Include="game\weapon\Sword.cpp" />
-    <ClCompile Include="graphics\AnimationController.cpp" />
-    <ClCompile Include="graphics\EffectManager.cpp" />
-    <ClCompile Include="graphics\FontManager.cpp" />
     <ClCompile Include="manager\FontManager.cpp" />
     <ClCompile Include="manager\GameManager.cpp" />
     <ClCompile Include="base\PlayerBase.cpp" />
     <ClCompile Include="manager\ResourceManager.cpp" />
     <ClCompile Include="character\ResultPlayer.cpp" />
-    <ClCompile Include="physics\SphereCollider.cpp" />
     <ClCompile Include="scene\ResultScene.cpp" />
     <ClCompile Include="scene\GameScene.cpp" />
+    <ClCompile Include="Ground.cpp" />
     <ClCompile Include="manager\HitStopManager.cpp" />
     <ClCompile Include="manager\EffectManager.cpp" />
     <ClCompile Include="EnemyState\EnemyDeadState.cpp" />
     <ClCompile Include="EnemyState\EnemyIdleState.cpp" />
     <ClCompile Include="manager\EnemyManager.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="manager\InputManager.cpp" />
     <ClCompile Include="base\PlayerStateBase.cpp" />
+    <ClCompile Include="PlayerAttack.cpp" />
     <ClCompile Include="PlayerState\PlayerAttackState.cpp" />
     <ClCompile Include="PlayerState\PlayerMoveState.cpp" />
     <ClCompile Include="PlayerState\PlayerIdleState.cpp" />
     <ClCompile Include="base\SceneBase.cpp" />
+    <ClCompile Include="SceneController.cpp" />
+    <ClCompile Include="SkyBox.cpp" />
     <ClCompile Include="collider\SphereCollider.cpp" />
     <ClCompile Include="manager\SoundManager.cpp" />
-    <ClCompile Include="scene\SceneBase.cpp" />
+    <ClCompile Include="Sword.cpp" />
     <ClCompile Include="system\Matrix4x4.cpp" />
     <ClCompile Include="Character\GamePlayer.cpp" />
     <ClCompile Include="system\Quaternion.cpp" />
@@ -210,51 +184,22 @@
     <ClCompile Include="character\Villager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AnimationController.h" />
+    <ClInclude Include="Application.h" />
     <ClInclude Include="base\Character.h" />
     <ClInclude Include="base\GameObject.h" />
     <ClInclude Include="camera\Camera.h" />
     <ClInclude Include="character\Enemy.h" />
     <ClInclude Include="base\EnemyStateBase.h" />
-    <ClInclude Include="core\Application.h" />
-    <ClInclude Include="core\SceneController.h" />
     <ClInclude Include="EnemyState\EnemyChaseState.h" />
-    <ClInclude Include="game\camera\Camera.h" />
-    <ClInclude Include="game\enemy\Enemy.h" />
-    <ClInclude Include="game\enemy\state\EnemyChaseState.h" />
-    <ClInclude Include="game\enemy\state\EnemyDeadState.h" />
-    <ClInclude Include="game\enemy\state\EnemyIdleState.h" />
-    <ClInclude Include="game\enemy\state\EnemyStateBase.h" />
-    <ClInclude Include="game\enemy\TitleEnemy.h" />
-    <ClInclude Include="game\manager\EnemyManager.h" />
-    <ClInclude Include="game\manager\GameManager.h" />
-    <ClInclude Include="game\manager\HitStopManager.h" />
-    <ClInclude Include="game\manager\InputManager.h" />
-    <ClInclude Include="game\manager\ResourceManager.h" />
-    <ClInclude Include="game\manager\SoundManager.h" />
-    <ClInclude Include="game\mob\Villager.h" />
-    <ClInclude Include="game\player\GamePlayer.h" />
-    <ClInclude Include="game\player\PlayerAttack.h" />
-    <ClInclude Include="game\player\PlayerBase.h" />
-    <ClInclude Include="game\player\state\PlayerStateBase.h" />
-    <ClInclude Include="game\player\ResultPlayer.h" />
-    <ClInclude Include="game\player\state\PlayerAttackState.h" />
-    <ClInclude Include="game\player\state\PlayerIdleState.h" />
-    <ClInclude Include="game\player\state\PlayerMoveState.h" />
-    <ClInclude Include="game\player\TitlePlayer.h" />
-    <ClInclude Include="game\stage\Ground.h" />
-    <ClInclude Include="game\stage\SkyBox.h" />
-    <ClInclude Include="game\weapon\Sword.h" />
-    <ClInclude Include="graphics\AnimationController.h" />
-    <ClInclude Include="graphics\EffectManager.h" />
-    <ClInclude Include="graphics\FontManager.h" />
     <ClInclude Include="manager\FontManager.h" />
     <ClInclude Include="manager\GameManager.h" />
     <ClInclude Include="base\PlayerBase.h" />
     <ClInclude Include="manager\ResourceManager.h" />
     <ClInclude Include="character\ResultPlayer.h" />
-    <ClInclude Include="physics\SphereCollider.h" />
     <ClInclude Include="scene\ResultScene.h" />
     <ClInclude Include="scene\GameScene.h" />
+    <ClInclude Include="Ground.h" />
     <ClInclude Include="manager\HitStopManager.h" />
     <ClInclude Include="manager\EffectManager.h" />
     <ClInclude Include="EnemyState\EnemyDeadState.h" />
@@ -262,14 +207,16 @@
     <ClInclude Include="manager\EnemyManager.h" />
     <ClInclude Include="manager\InputManager.h" />
     <ClInclude Include="base\PlayerStateBase.h" />
+    <ClInclude Include="PlayerAttack.h" />
     <ClInclude Include="PlayerState\PlayerAttackState.h" />
     <ClInclude Include="PlayerState\PlayerMoveState.h" />
     <ClInclude Include="PlayerState\PlayerIdleState.h" />
     <ClInclude Include="base\SceneBase.h" />
+    <ClInclude Include="SceneController.h" />
+    <ClInclude Include="SkyBox.h" />
     <ClInclude Include="collider\SphereCollider.h" />
     <ClInclude Include="manager\SoundManager.h" />
-    <ClInclude Include="scene\SceneBase.h" />
-    <ClInclude Include="system\Game.h" />
+    <ClInclude Include="Sword.h" />
     <ClInclude Include="system\Matrix4x4.h" />
     <ClInclude Include="Character\GamePlayer.h" />
     <ClInclude Include="system\Quaternion.h" />

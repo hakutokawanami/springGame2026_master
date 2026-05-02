@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "SceneBase.h"
+#include "../base/SceneBase.h"
 #include<memory>
 class InputManager;
 class SkyBox;

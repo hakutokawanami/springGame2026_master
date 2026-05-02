@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include"system/Vector3.h"
+#include"../system/Vector3.h"
 /// <summary>
 /// ゲームオブジェクト基底クラス
 /// </summary>
